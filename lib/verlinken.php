@@ -6,33 +6,33 @@ function show_box()
 		{
 			echo 'Dein PHP Code:<br /><br /><textarea cols="75" rows="3">';
 			if ($_POST["element"]==1)
-			{ echo htmlentities('<?php include("http://www.discollection-radio.eu/onair/onair_text'.$_POST["stream"].'.htm");?>');
+			{ echo htmlentities('<?php include("onair_text'.$_POST["stream"].'.htm");?>');
 			echo '</textarea><br /><br />Beispiel: ';
-			include("http://www.discollection-radio.eu/onair/onair_text".$_POST["stream"].".htm");
+			include("onair_text".$_POST["stream"].".htm");
 			}		 
 			
 			if ($_POST["element"]==2)
-			{ echo htmlentities('<?php include("http://www.discollection-radio.eu/onair/onair'.$_POST["stream"].'.htm");?>');
+			{ echo htmlentities('<?php include("onair'.$_POST["stream"].'.htm");?>');
 			echo '</textarea><br /><br />Beispiel:';
-			include("http://www.discollection-radio.eu/onair/onair".$_POST["stream"].".htm");
+			include("onair".$_POST["stream"].".htm");
 			}
 			
 			if ($_POST["element"]==3)
-			{ echo htmlentities('<?php include("http://www.discollection-radio.eu/onair/banner_text'.$_POST["stream"].'.htm");?>');
+			{ echo htmlentities('<?php include("banner_text'.$_POST["stream"].'.htm");?>');
 			echo '</textarea><br /><br />Beispiel:';
-			include("http://www.discollection-radio.eu/onair/banner_text".$_POST["stream"].".htm");
+			include("onair/banner_text".$_POST["stream"].".htm");
 			}
 			
 			if ($_POST["element"]==4)
-			{ echo htmlentities('<?php include("http://www.discollection-radio.eu/onair/banner'.$_POST["stream"].'.htm");?>');
+			{ echo htmlentities('<?php include("banner'.$_POST["stream"].'.htm");?>');
 			echo '</textarea><br /><br />Beispiel:';
-			include("http://www.discollection-radio.eu/onair/banner".$_POST["stream"].".htm");
+			include("onair/banner".$_POST["stream"].".htm");
 			}
 			
 			if ($_POST["element"]==5)
-			{ echo htmlentities('<?php include("http://www.discollection-radio.eu/onair/banner'.$_POST["stream"].'.htm");?>');
+			{ echo htmlentities('<?php include("banner'.$_POST["stream"].'.htm");?>');
 			echo '</textarea><br /><br />Beispiel:';
-			include("http://www.discollection-radio.eu/onair/banner".$_POST["stream"].".htm");
+			include("onair/banner".$_POST["stream"].".htm");
 			}			
 			echo '<a href="verlinken.htm">Möchtest du noch etwas generieren ?</a>';			
 			
@@ -42,10 +42,10 @@ function show_box()
         {
 	       echo 'Dein Code:<br /><br /><textarea cols="75" rows="3">';
 	        if ($_POST["element"]==1)
-	        { echo htmlentities('<script language="JavaScript" src="http://www.discollection-radio.eu/onair/onair'.$_POST["stream"].'.js"><a href="http://www.discollection-radio.eu/stream'.$_POST["stream"].'.htm">DCR</a></script>');
+	        { echo htmlentities('<script language="JavaScript" src="onair'.$_POST["stream"].'.js"><a href="http://www.discollection-radio.eu/stream'.$_POST["stream"].'.htm">A</a></script>');
 
 			echo '</textarea><br /><br />Beispiel:
-			<script language="JavaScript" src="http://www.discollection-radio.eu/onair/onair'.$_POST["stream"].'.js"><a href="http://www.discollection-radio.eu/stream'.$_POST["stream"].'.htm">DCR</a></script>';
+			<script language="JavaScript" src="onair'.$_POST["stream"].'.js"><a href="http://www.discollection-radio.eu/stream'.$_POST["stream"].'.htm">B</a></script>';
 			
 			}	
 	        

@@ -16,9 +16,9 @@ function show_bewerbung()
 	 Do : ".filter($_POST["do"])."<br /> 	 
 	 Fr : ".filter($_POST["fr"])."<br />
 	 Sa : ".filter($_POST["sa"])."<br />
-	 So : ".filter($_POST["so"])."<br /> Dies ist eine automatisch generierte Email, <br /><br /><i>PHP-FEE von Darius Murawski</i>";	 	 
+	 So : ".filter($_POST["so"])."<br /> Dies ist eine automatisch generierte Email, <br /><br /><i>PHP-FEE</i>";	 	 
 	 
-	$extra    = "From: system@discollection-radio.eu\n";
+	$extra    = "From: test@test.com\n";
     $extra   .= "Content-Type: text/html\nContent-Transfer-Encoding: 8bit\n";
     
 	$sql1="SELECT email FROM user WHERE bewerbung_level>9";
@@ -63,7 +63,7 @@ Bewerbungsbogen vollst&auml;ndig ausf&uuml;llen und abschicken, wir werden uns s
       <li>wollen neben der Arbeit den Spa&szlig; nicht vergessen</li>
       <li>verf&uuml;gen &uuml;ber einen treuen H&ouml;rerstamm, den wir  erweitern m&ouml;chten</li>
       <li>stehen neuen Ideen aufgeschlossen gegen&uuml;ber</li>
-      <li>haben nur EIN Motto: Discollection-Radio WIR  machen s&uuml;chtig!</li></ul><br />';
+      <li>haben nur EIN Motto!</li></ul><br />';
       
       
 if (isset($_SESSION["id"]))

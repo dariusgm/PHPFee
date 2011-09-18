@@ -40,7 +40,7 @@ function do_akti()
 	
 
   if ($result2+$result3=="2")
-   {   echo "Ihr Nick ist nun aktiviert. Viel Spa&szlig; bei uns. <br /> Ihr Discollection-Team."; }
+   {   echo "Ihr Nick ist nun aktiviert. Viel Spa&szlig; bei uns. <br /> Ihr Team."; }
    else
    { echo "Ihr Aktivierungscode war leider ung&uuml;ltig. Bitte achten Sie auf die genaue Schreibweise. Kopieren Sie ihn am besten aus der E-Mail."; }    
  }

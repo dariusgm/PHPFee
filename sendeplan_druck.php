@@ -5,7 +5,7 @@ include("./lib/stats.php");
 if (allcheck(71,"",false,""))
 {
 echo '
-Discollection-radio.de Sendeplan, Druckversion
+Sendeplan, Druckversion
 <table summary="Sendeplan Heute" frame="void" cellspacing="0" cellpadding="0">
 <tr><td><ul><li> Heute </li></ul></td></tr></table>';
 show(0); 

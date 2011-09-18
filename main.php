@@ -12,7 +12,7 @@ echo '<br />
 <hr />';
 
 show_news_short();
-echo '<br /><hr /><b>Bands Bei DCR:</b><br />';
+echo '<br /><hr /><b>Bands</b><br />';
 show_last_4();
 
 }?>

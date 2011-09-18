@@ -183,7 +183,7 @@ else
 	# Zeige neuste User
 	
 	echo 'Die neusten Mitglieder bei Discollection Radio:';
-	echo '<table cellpadding="5" border="1"><tr><td></td><td><a href="index.php?x=faq#Nick"><u>Nick</u></a></td><td><a href="index.php?x=faq#G"><u>G</u></a></td><td><a href="index.php?x=faq#plz"><u>PLZ</u></a></td><td colspan="3">Kontakt</td><td>Alter</td><td>Mitglied Seit</td><td><a href="index.php?x=faq#discollis"><u>Discollis</u></a></td></tr>';
+	echo '<table cellpadding="5" border="1"><tr><td></td><td><a href="index.php?x=faq#Nick"><u>Nick</u></a></td><td><a href="index.php?x=faq#G"><u>G</u></a></td><td><a href="index.php?x=faq#plz"><u>PLZ</u></a></td><td colspan="3">Kontakt</td><td>Alter</td><td>Mitglied Seit</td><td><a href="index.php?x=faq#discollis"><u></u></a></td></tr>';
 	$sql="SELECT nick,sex,gb,plz,seit,discollis,show_gb,show_sex,show_plz,show_seit FROM user ORDER BY id DESC LIMIT 5";
 	$db=mysql_connect("localhost","portal","psacln");
 	$result=mysql_db_query("portal",$sql);

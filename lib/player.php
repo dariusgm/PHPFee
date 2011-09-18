@@ -54,7 +54,7 @@ type="application/x-oleobject">
 <param name="ShowDisplay" value="false">
 <Embed type="application/x-mplayer2" 
 pluginspage="http://www.microsoft.com/Windows/Downloads/Contents/Products/MediaPlayer/" 
-src="http://discollection-radio.eu/streams/wmp'.get_stream_file().'.m3u" Name="MediaPlayer" 
+src="wmp'.get_stream_file().'.m3u" Name="MediaPlayer" 
 width="268" height="111" TransparentAtStart="true" AutoStart="true" 
 AnimationatStart="false" ShowControls="true" ShowAudioControls="true" 
 ShowPositionControls="false" autoSize="false" ShowStatusBar="true" displaySize="false" ShowTracker="true" ShowGotoBar="false" ShowDisplay="false"> 

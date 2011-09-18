@@ -3,7 +3,7 @@
 <?php if (allcheck(69,"",false,""))
 {
 echo '
-Du willst Discollection Radio verlinken? Nichts einfacheres als das. 
+Du willst verlinken? Nichts einfacheres als das. 
 Wenn du deine eigene kleine private Homepage hast, und wenig Erfahrung im Einbinden von Inhalten hast, empfehlen wir dir unsere Komplettl&ouml;sung. In ihr sind alle n&ouml;tigen Elemente und Layout so, dass du einfach alles auf deiner Seite hast. Ist das nicht "Wunderbar" ? Wir bieten euch 2 L&ouml;sungen an. Einmal einfache HTML ( mit unterst&uuml;tzung von PHP Dateien die Ihr einbinden k&ouml;nnt, und auf der anderen Seite JavaScript Datein. Kurz die Vor- und Nachteile: 
 
 

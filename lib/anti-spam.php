@@ -78,7 +78,7 @@ if (isset($_POST["php_fee"]) && isset($_POST["php_fee2"]))
 	    }
 		else
 		{
-			if (($a==1) && ($zeile1["info"]==filter($_POST["email"]))) { echo 'An die von dir angegebene E-Mail Adresse wurde bereits eine Empfehlunf geschickt. Bitte sage deinem Freund noch einmal pers&ouml;nlich das bei Discollection Radio die Post abgeht.<br />';return false; }	
+			if (($a==1) && ($zeile1["info"]==filter($_POST["email"]))) { echo 'An die von dir angegebene E-Mail Adresse wurde bereits eine Empfehlunf geschickt. Bitte sage deinem Freund noch einmal pers&ouml;nlich das bei die Post abgeht.<br />';return false; }	
 			
 			if ($zeile1["ip"]==$_SERVER["REMOTE_ADDR"] && $zeile1["time"]<(time()-86400)) {echo 'Von dieser IP wurde heute bereits eine Anfrage gesendet. Der Vorgang wurde abgebrochen.<br />'; return false;}
 			

@@ -6,7 +6,7 @@ allcheck("admin_download","download_level",10);?>
 "xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 <head>
- <title>discollection-radio.de das Internetradio in neuem Glanz Alpha 2</title>
+ <title></title>
  <link rel="stylesheet" type="text/css" href="format.css" />
  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 </head>

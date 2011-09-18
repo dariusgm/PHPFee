@@ -1,5 +1,5 @@
 <?php
-    #Diese Datei Führt Die Statistiken der Server. Nicht verändern ! by Darius Murawski
+    #Diese Datei Führt Die Statistiken der Server. Nicht verändern !
     $db=mysql_connect("localhost","portal","psacln");
 	$sql="SELECT * FROM relay";
 	$result=mysql_db_query("portal",$sql);

@@ -1,5 +1,5 @@
 <!-- Community -->
-<table summary="Pop-Fox.de Community" frame="void" cellspacing="0" cellpadding="0">
+<table summary="" frame="void" cellspacing="0" cellpadding="0">
 <tr><td colspan="5"></td></tr>
 <tr><td></td>
 <td class="naviwhite" width="30"></td>

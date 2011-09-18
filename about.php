@@ -5,7 +5,7 @@
 echo '
 
 <b>&Uuml;ber uns</b><br />
-<i>Text folgt, muss erstmal Andy\'s Sammelsurium soriteren^^ (Kann ich gut Nachvollziehen ^^)</i><br /><br />
+<i></i><br /><br />
 
 ';
 }?>
