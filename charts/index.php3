@@ -1,0 +1,1 @@
+<table><tr><td>Aufgrund von Technischen Problemen sind die Charts zur Zeit nicht Online.</td></tr></table>

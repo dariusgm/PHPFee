@@ -1,0 +1,7 @@
+#Verzeichnisschutz
+AuthType Basic
+AuthName 'Authorisize or die!'
+AuthUserFile /srv/www/vhosts/discollection-radio.eu/httpdocs/playlist/.htpasswd
+order deny,allow
+allow from all
+require valid-user

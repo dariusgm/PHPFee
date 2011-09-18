@@ -1,0 +1,272 @@
+table {  background-color:#FFFAF0;
+margin-top:0pt;
+margin-bottom:0pt;
+margin-left:0pt;
+margin-right:0pt;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+
+}
+
+table.x {
+background-color:#FFFAF0;
+margin-top:0pt;
+margin-bottom:0pt;
+margin-left:0pt;
+margin-right:0pt;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+
+}
+
+#withborder {
+  background-color:#FFFAF0;
+margin-top:0pt;
+margin-bottom:0pt;
+margin-left:0pt;
+margin-right:0pt;
+alignment:center;
+border:5px;
+border-top-width:5px;
+border-bottom-width:5px;
+border-left-width:5px;
+border-right-width:5px;
+border-style:solid;
+border-color:Black;
+border-width:5px;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+td.justgrey {
+background-color:#FFFAF0;
+margin-top:0pt;
+margin-bottom:0pt;
+margin-left:0pt;
+margin-right:0pt;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+td.naviwhite
+{
+  background-color:#FFFAF0;
+margin-top:0pt;
+margin-bottom:0pt;
+margin-left:0pt;
+margin-right:0pt
+text-decoration:none;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+
+}
+
+a.mainlink { 
+color:#FB0000;
+  background-color:#FFFAF0; 
+font-style:normal;
+text-decoration:none;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+a.mainlink:active { 
+font-size:10pt;
+color:#FB0000;
+  background-color:#FFFAF0;
+font-style:normal;
+text-decoration:none;
+
+
+}
+a.mainlink:link { 
+color:#FB0000;
+  background-color:#FFFAF0;
+font-style:normal;
+text-decoration:none;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+
+}
+
+a.mainlink:visited { font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:10pt;
+color:#FB0000;
+  background-color:#FFFAF0;
+font-style:normal;
+text-decoration:none;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+
+}
+a:active { 
+color:Black;
+  background-color:#FFFAF0;
+text-decoration:none;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+a:link { 
+color:Black;
+  background-color:#FFFAF0;
+font-style:normal;
+text-decoration:none;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+a:visited { 
+color:Black;
+  background-color:#FFFAF0;
+font-style:normal;
+text-decoration:none;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+#navitextstatus {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+color:Black;
+  background-color:#FFFAF0;
+  
+}
+
+#navitext {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:10pt;
+color:Black;
+  background-color:#FFFAF0;
+  font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+#naviaktiv {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:10pt;
+color:Red;
+  background-color:#FFFAF0;
+font-weight:900;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+
+#naviform {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:10pt;
+color:Black;
+  background-color:#FFFAF0;
+text-align:center;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+td.justwhite {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:10pt;
+color:Black;
+  background-color:#FFFAF0;
+text-align:left;
+vertical-align:top;
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+}
+
+td.newsheader {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+color:Black;
+  background-color:#FFFAF0;
+text-align:left;
+vertical-align:top;
+font-weight:900;
+}
+
+td.main {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+color:Black;
+  background-color:#FFFAF0;
+vertical-align:top;
+}
+
+#navipfeil {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+color:#393C39;
+  background-color:#FFFAF0;
+font-weight:900;
+}
+
+#mainheader {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+color:Black;
+  background-color:#FFFAF0;
+font-weight:900;
+}
+
+#mainbread {
+font-family:Verdana;
+font-style:normal;
+font-variant:normal;
+font-size:75%;
+color:Red;
+  background-color:#FFFAF0;
+font-weight:900;
+}
+
+

@@ -1,0 +1,1 @@
+<iframe name="charts" src="http://www.discollection-radio.de/portal/charts/charts.php" scrolling="auto" height="1500" width="100%" hspace="10" vspace="10" frameborder="0">Dein Brwoser unterst&uuml;tzt leider Keine Frames. Aus diesem Grund kannst du leider nicht in den genuss unserer Frames kommen :-(</iframe>

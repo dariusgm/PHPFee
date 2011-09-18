@@ -1,0 +1,80 @@
+<html>
+
+<head>
+<title>Kein Titel</title>
+<meta name="generator" content="Namo WebEditor v6.0">
+
+<script language="JavaScript" type="text/JavaScript">
+function box()
+{
+window.open('http://www.discollection.de/portal/grussbox/listen/box.php', 'Grussbox','toolbar=no,location=no,resizable=no,directories=no,status=no,menubar=no,scrollbars=no,copyhistory=no,width=480,height=265,top=110,left=110')
+}
+//-->
+</script>
+
+
+
+<script language="JavaScript">
+<!--
+function na_open_window(name, url, left, top, width, height, toolbar, menubar, statusbar, scrollbar, resizable)
+{
+  toolbar_str = toolbar ? 'yes' : 'no';
+  menubar_str = menubar ? 'yes' : 'no';
+  statusbar_str = statusbar ? 'yes' : 'no';
+  scrollbar_str = scrollbar ? 'yes' : 'no';
+  resizable_str = resizable ? 'yes' : 'no';
+
+  cookie_str = document.cookie;
+  cookie_str.toString();
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_end    = cookie_str.indexOf('=', pos_start);
+
+  cookie_name = cookie_str.substring(pos_start, pos_end);
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_start  = cookie_str.indexOf('=', pos_start);
+  pos_end    = cookie_str.indexOf(';', pos_start);
+  
+  if (pos_end <= 0) pos_end = cookie_str.length;
+  cookie_val = cookie_str.substring(pos_start + 1, pos_end);
+  if (cookie_name == name && cookie_val  == "done")
+    return;
+
+  window.open(url, name, 'left='+left+',top='+top+',width='+width+',height='+height+',toolbar='+toolbar_str+',menubar='+menubar_str+',status='+statusbar_str+',scrollbars='+scrollbar_str+',resizable='+resizable_str);
+}
+
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body text="black" link="blue" vlink="purple" alink="red" bgcolor="#9E0507">
+<DIV align=center>
+    <table border="0" width="965">
+        <tr>
+            <td width="300" height="134">
+                <p><iframe name="ifrm1" src="on-air/index2.php" height="70" frameborder="0" scrolling="no"></iframe></p>
+            </td>            <td width="472" height="134">
+                <p><img src="bobbel.jpg" width="420" height="129" border="0"></p>
+            </td>
+            <td width="171" height="134" rowspan="2">
+                <p align="right" style="line-height:100%;"><a href="javascript:na_open_window('box_grussbox', 'http://www.discollection-radio.de/portal/grussbox/listen/box.php', 0, 0, 480, 300, 0, 0, 0, 0, 0)"><font size="3"><img src="button_grussbox.gif" width="101" height="15" border="0"></font></a><font size="3"></font></p>
+                <p align="right" style="line-height:100%; margin-top:0; margin-bottom:0;"><font size="3" face="Arial" color="white">DSL</font><font size="3" face="Arial">&nbsp;</font><a href="http://85.214.52.9:8000/listen.pls"><font size="3" face="Arial"><img src="winamp_a.gif" width="18" height="18" border="0"></font></a><font size="3" face="Arial" color="white"><span style="line-height:100%;"> </span></font><a href="http://discollection-radio.org/portal/Streams/96.ram"><font size="3" face="Arial" color="blue"><img src="realone_a.gif" width="18" height="17" border="0"></font></a><font size="3" face="Arial"><span style="line-height:100%;"> </span></font><a href="http://discollection-radio.org/portal/Streams/96.m3u"><font size="3" face="Arial" color="blue"><img src="wmp9_a.gif" width="18" height="19" border="0"></font></a><font size="3"></font></p>
+                <p align="right" style="line-height:100%; margin-top:0; margin-bottom:0;"><font size="3" face="Arial" color="white">ISDN</font><font size="3" face="Arial"> <a href="http://85.214.52.9:8002/listen.pls"><img src="winamp_a.gif" width="18" height="18" border="0"></a> </font><a href="http://discollection-radio.org/portal/Streams/56.ram"><font size="3" face="Arial" color="blue"><img src="realone_a.gif" width="18" height="17" border="0"></font></a><font size="3" face="Arial" color="white"><span style="line-height:100%;"> </span></font><a href="http://discollection-radio.org/portal/Streams/48.m3u"><font size="3" face="Arial" color="blue"><img src="wmp9_a.gif" width="18" height="19" border="0"></font></a><font size="3" face="Arial"> </font><font size="3"></font></p>
+                <p align="right" style="line-height:100%; margin-top:0; margin-bottom:0;"><font size="3" face="Arial" color="white"><span style="line-height:100%;">TV-Stream </span></font><font size="3" face="Arial"><a href="http://85.214.52.9:9000/listen.pls"><img src="winamp_a.gif" width="18" height="18" border="0"></a> </font><font size="3" face="Arial" color="blue"><a href="http://discollection-radio.org/portal/Streams/tv_ram.ram"><img src="realone_a.gif" width="18" height="17" border="0"></a></font><font size="3" face="Arial" color="white"><span style="line-height:100%;"> </span></font><font size="3" face="Arial" color="blue"><a href="http://discollection-radio.org/portal/Streams/tv_ram.m3u"><img src="wmp9_a.gif" width="18" height="19" border="0"></a></font><font size="3"></font></p>
+            </td>
+        </tr>
+    </table>
+</DIV></body>
+
+</html>

@@ -1,0 +1,32 @@
+<html><head>
+<script language="JavaScript">
+var warten = 1000;
+var bilder = new Array();
+bilder[0] = '4.jpg';
+bilder[1] = '2.jpg';
+bilder[2] = '3.jpg';
+var Timer;
+var aktuell = 0;
+var vorladen = new Array ();
+for ( i = 0; i < bilder.length; i++)
+{
+  vorladen[i] = new Image();
+ vorladen[i].src = bilder[i];
+}
+
+function bildwechseln() {
+document.images.bild.src = vorladen[aktuell].src;
+aktuell++;
+if ( aktuell > (bilder.length-1)) 
+{  aktuell=0; 
+}
+
+Timer = setTimeout('bildwechseln()',warten);
+}
+
+</script>
+</head>
+<body onload="bildwechseln()">
+ <img src="1.jpg" name="bild" />
+</body>
+</html>

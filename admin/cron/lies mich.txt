@@ -1,0 +1,1 @@
+﻿Diese php Datein sind passiv. Es sind Cronjobs die vom Server ausgeführt werden. nähere infos stehen in den einzelnen datein selbst drinne im Kopfbereich. Alle Module, wie auch der rest der Seite ist geistiges Eigentum von Darius Murawski.

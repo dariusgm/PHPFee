@@ -1,0 +1,49 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+RewriteRule ^index.htm$ index.php [QSA]
+RewriteRule ^stream1.htm$ index.php?x=stream1
+RewriteRule ^stream2.htm$ index.php?x=stream2
+RewriteRule ^stream3.htm$ index.php?x=stream3
+RewriteRule ^popcenter.htm$ index.php?x=popcenter
+RewriteRule ^news.htm$ index.php?x=news
+RewriteRule ^sendeplan.htm$ index.php?x=sendeplan
+RewriteRule ^events.htm$ index.php?x=events
+RewriteRule ^download.htm$ index.php?x=download
+RewriteRule ^charts.htm$ index.php?x=charts
+RewriteRule ^teamspeak.htm$ index.php?x=teamspeak
+RewriteRule ^tell-a-friend.htm$ index.php?x=tell-a-friend
+RewriteRule ^bands.htm$ index.php?x=bands
+RewriteRule ^podcast.htm$ index.php?x=podcast
+RewriteRule ^chat.htm$ index.php?x=chat
+RewriteRule ^forum.htm$ index.php?x=forum
+RewriteRule ^gaestebuch.htm$ index.php?x=gbook
+RewriteRule ^suchen.htm$ index.php?x=search [QSA]
+RewriteRule ^log-in.htm$ index.php?x=log-in
+RewriteRule ^registrieren.htm$ index.php?x=register
+RewriteRule ^aktivieren.htm$ index.php?x=akti
+RewriteRule ^passwort.htm$ index.php?x=password
+RewriteRule ^pop-intern.htm$ index.php?x=pop-intern
+RewriteRule ^ueber-uns.htm$ index.php?x=about
+RewriteRule ^spenden.htm$ index.php?x=spenden
+RewriteRule ^partner.htm$ index.php?x=partner
+RewriteRule ^shop.htm$ index.php?x=shop
+RewriteRule ^bewerben.htm$ index.php?x=bewerben
+RewriteRule ^faq.htm$ index.php?x=faq
+RewriteRule ^mitwirkende.htm$ index.php?x=mitwirkende
+RewriteRule ^kontakt.htm$ index.php?x=kontakt
+RewriteRule ^impressum.htm$ index.php?x=impressum
+RewriteRule ^news.htm$ index.php?x=news
+RewriteRule ^edit.htm$ index.php?x=edit
+RewriteRule ^show.htm$ index.php?x=show [QSA]
+RewriteRule ^foto.htm$ index.php?x=foto
+RewriteRule ^mitteilungen.htm$ index.php?x=mitteilungen [QSA]
+RewriteRule ^gbedit.htm$ index.php?x=gbedit
+RewriteRule ^notiz.htm$ index.php?x=notiz
+RewriteRule ^blockliste.htm$ index.php?x=block
+RewriteRule ^php-fee.htm$ index.php?x=php-fee
+RewriteRule ^verlinken.htm$ index.php?x=verlinken
+RewriteRule ^log-out.htm$ index.php?x=log-out
+RewriteRule ^email.htm$ index.php?x=email [QSA]
+RewriteRule ^artikel_([0-9]+).htm$ index.php?x=news&a=$1
+RewriteRule ^band_([0-9]+).htm$ index.php?x=bands&a=$1
